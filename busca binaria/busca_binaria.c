@@ -51,6 +51,7 @@ int main(int argc, char *argv[]) {
     unsigned int indice;
 
     indice = buscaBinaria(lista, tamanho_lista, numero);
+    free(lista);
     if (indice == -1) return 1;
     printf("Numero está em: %u\n", indice);
 
