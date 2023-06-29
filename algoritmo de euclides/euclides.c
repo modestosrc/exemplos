@@ -12,7 +12,7 @@ int mdc(int a, int b) {
     if ( r == 0 ) resultado = b;
     else resultado = mdc(b, r);
 
-    return resultado;;
+    return resultado;
 }
 
 int main(int argc, char *argv[]) {
